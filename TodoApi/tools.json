@@ -1,0 +1,18 @@
+{
+  "name": "create_todo_item",
+  "description": "Create new item in an existing list.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "list_name": {
+        "type": "string",
+        "description": "Name of the list where this will be added"
+      },
+      "description": {
+        "type": "string",
+        "description": "Description of the to-be created item."
+      }
+    },
+    "required": ["list_name", "description"]
+  }
+}
